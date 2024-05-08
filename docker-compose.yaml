@@ -1,0 +1,7 @@
+version: "2.3"
+
+services:
+  socket:
+    image: docker.io/coffeespiller/socket:latest
+    ports:
+    - "8080:8080"
